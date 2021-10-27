@@ -1,5 +1,5 @@
 import { greet } from "./utils/greet";
-import { FizzBuzz } from "./components/FizzBuzz"
+import { FizzBuzz } from "./components/FizzBuzz";
 
 function App(): JSX.Element {
   return (
@@ -7,7 +7,7 @@ function App(): JSX.Element {
       <h1>{greet("World")}</h1>
       <FizzBuzz />
     </>
-  )
+  );
 }
 
 export default App;
